@@ -27,21 +27,5 @@ class PigLatinizer
     temp.join(" ")
   end
 
-#     temp = ""
-#     vowels = /[aeiou]/
-#     words = phrase.split(" ")
-#     var = words.collect do |w|
-#       if vowels.match(w[0].downcase) == nil
-#         temp = w.split("")
-#         temp2 = temp.shift
-#         temp << (temp2+"ay")
-#         temp.join
-#       else
-#         w + "way"
-#       end
-#     end
-# #    binding.pry
-#     var.join(" ")
-#   end
 
 end
